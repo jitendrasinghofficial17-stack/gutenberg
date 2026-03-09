@@ -27,7 +27,7 @@ import PostPanelSection from '../post-panel-section';
 import PostSchedulePanel from '../post-schedule/panel';
 import PostStatusPanel from '../post-status';
 import PostSyncStatus from '../post-sync-status';
-import PostTemplatePanel from '../post-template/panel';
+import PostTemplatePanelV2 from '../post-template-panel-v2';
 import PostURLPanel from '../post-url/panel';
 import BlogTitle from '../blog-title';
 import PostsPerPage from '../posts-per-page';
@@ -112,7 +112,7 @@ export default function PostSummary( { onActionPerformed } ) {
 										<PostSchedulePanel />
 										<PostURLPanel />
 										<PostAuthorPanel />
-										<PostTemplatePanel />
+										<PostTemplatePanelV2 />
 										<PostDiscussionPanel />
 										<PrivatePostLastRevision />
 										<PageAttributesPanel />
